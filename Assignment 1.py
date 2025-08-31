@@ -11,7 +11,7 @@ def insertion_sort_decreasing(arr):
             arr[j + 1] = arr[j]
             j -= 1
         
-        # Insert the key at the correct position
+        # Insert key at the correct position
         arr[j + 1] = key
 
 # Test the function with an example array
@@ -26,3 +26,4 @@ if __name__ == "__main__":
     
     # Print the sorted array
     print("Sorted Array in Decreasing Order:", test_array)
+
